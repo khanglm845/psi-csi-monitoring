@@ -85,7 +85,9 @@ python pipeline_to_bigquery.py
 ---
 
 ### Key findings (2023 monitoring cycle)
+
+<img width="959" height="533" alt="psi" src="https://github.com/user-attachments/assets/9e56c413-13ac-4de0-a117-6cae4ed24b97" />
+
 - PSI remains stable throughout all 12 months (max: 0.0035)
 - `monthly_txn_count` shows progressive High Drift from Sep 2023 (CSI: 0.52 in Dec)
-- `num_late_payments_12m` enters Monitor zone from Aug 2023
 - Recommendation: recalibrate scorecard weight for `monthly_txn_count` before Q1 2024
